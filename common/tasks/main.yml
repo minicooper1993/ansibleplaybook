@@ -1,0 +1,13 @@
+---
+  - name: install package
+    apt: name={{ item }} state=present
+    with_items:
+      - apache2
+      - mysql-server
+      - php7.0
+      - php7.0-mysql
+      - libapache2-mod-php7.0
+      - php7.0-cli
+      - php7.0-cgi
+      - php7.0-gd
+    

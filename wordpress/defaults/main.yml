@@ -1,0 +1,4 @@
+---
+wp_mysql_db: wp-vccloud
+wp_mysql_user: hannv
+wp_mysql_password: 123456
